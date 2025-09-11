@@ -16,7 +16,7 @@ This is a summary of the main tasks you need to complete.
   - [x] Create a `.gitignore` file.
   - [x] Create a folder for static assets (e.g., `public/` or `assets/`)
   - [x] Add your Node.js screenshot to the asset folder.
-  - [ ] Fix all bugs in the HTML, CSS, and JavaScript files.
+  - [x] Fix all bugs in the HTML, CSS, and JavaScript files.
   - [ ] Move any existing images into your new asset folder.
   - [ ] Fill out the "Git Terminology Definitions" section in this README.
 - [ ] **Part 3: Submission**
