@@ -18,7 +18,28 @@ const users = [
 
 // 1. Print out the names of each character in the console, then render them in the HTML list with id "names-list"
 
+// While I was reviewing the class website I noticed that as this is an array I can use a forEach method 
+// to loop through the array and get the names of each character. It was something I didn't know about beforehand.
+// I then made a "li" element using document.createElement and set the textContent to the user.name 
+// (user being each individual name on the array and name being the property name of the string).
+// I then used getElementById to find 'names-list' and appended the "li" element that I created to it.
+users.forEach(user => {
+  console.log(user.name);
+  const li = document.createElement('li');
+  li.textContent = user.name;
+  document.getElementById('names-list').appendChild(li);
+});
 // 2. Print out the names of characters whose age is less than 40 in the console, then render them in the HTML list with id "young-characters-list"
+
+// Same concept as above just I checked for any user whose age was less than 40 using an if statement.
+users.forEach(user => {
+  if (user.age < 40) {
+    console.log(user.name);
+    const li = document.createElement('li');
+    li.textContent = user.name;
+    document.getElementById('young-characters-list').appendChild(li);
+  }
+});
 
 // 3. Create a reusable function that takes any array and uses logic to render a list of character names in the HTML. Use this function to populate the list with id "function-list"
 
