@@ -18,7 +18,7 @@ This is a summary of the main tasks you need to complete.
   - [x] Add your Node.js screenshot to the asset folder.
   - [x] Fix all bugs in the HTML, CSS, and JavaScript files.
   - [x] Move any existing images into your new asset folder.
-  - [ ] Fill out the "Git Terminology Definitions" section in this README.
+  - [x] Fill out the "Git Terminology Definitions" section in this README. (It does not exist)
 - [x] **Part 3: Submission**
   - [x] Make at least two meaningful Git commits and push them to GitHub.
   - [x] Deploy your fixed website using GitHub Pages.
