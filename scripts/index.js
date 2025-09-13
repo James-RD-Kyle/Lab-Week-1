@@ -54,6 +54,7 @@ USERS.forEach(user => {
 
 // 3. Create a reusable function that takes any array and uses logic to render a list of character names in the HTML. Use this function to populate the list with id "function-list"
 
+// Same concept but with function that is interchangable with different arrays :)
 logicNamesList(USERS)
 
 function logicNamesList(array) {
@@ -65,6 +66,7 @@ function logicNamesList(array) {
 }
 // 4. Create a function that takes an array and an age threshold parameter. The function should only display characters whose age is below the given number. Render results in the list with id "age-filter-list"
 
+//Age filter but is interchangable with different arrays
 ageFilteredList(USERS, 30)
 
 function ageFilteredList(array, filteredAge) {
@@ -79,6 +81,8 @@ function ageFilteredList(array, filteredAge) {
 
 // 5. Add error handling to your functions that will log an error message using console.error() if any object doesn't have a "name" property. Display any error messages in the div with id "error-messages"
 
+//This one was a challenge for me. Should be straight forward though, it first try catchs for errors it catches it then console logs it.
+//Displays success if there is no errors
 errorHandlingFunction(USERS);
 
 function errorHandlingFunction(array) {
@@ -110,6 +114,7 @@ function errorHandlingFunction(array) {
 }
 // 6. Test your error handling by creating a second array that's intentionally broken (missing name properties) and passing it to your functions. Verify that your error handling works correctly and displays errors in the div with id "broken-array-errors"
 
+//Same concept just is with an array that has Pancakes as a property instead of name
 errorHandlingFunction2(USERS_ERROR);
 
 function errorHandlingFunction2(array) {
