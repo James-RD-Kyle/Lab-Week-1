@@ -7,7 +7,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 4;
+  line-height: 2;
   color: lightgrey;
   background-color: #f5f5f5;
   padding: 20px;
@@ -82,7 +82,7 @@ section p {
 
 /* List styles */
 ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
 }
 
@@ -109,6 +109,7 @@ ul li:last-child {
 #error-messages,
 #broken-array-errors {
   margin-top: 1rem;
+  list-style-type: none;
 }
 
 .error-message {
